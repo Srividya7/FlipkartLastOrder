@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.150038">
+<testcase classname="Flipkart Website Feature" name="User Add product in cart Scenario" time="12.150038">
+<system-out><![CDATA[Given User is on Application  Page..........................................passed
+Then User enter username and password.......................................passed
+Then User mousehover on username in menubar.................................passed
+Then User click on orders...................................................passed
+Then User extract last placed order in flipkart.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

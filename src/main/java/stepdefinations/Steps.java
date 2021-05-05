@@ -1,8 +1,9 @@
 package stepdefinations;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.Properties;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -25,7 +26,7 @@ public class Steps extends Base {
 	public void Application_Page() throws Exception{
 		String actualTitle = driver.getTitle();
 	    String expectedTitle = "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
-	    Assert.assertEquals(expectedTitle, actualTitle);
+	    assertEquals(expectedTitle, actualTitle);
 	}
 	
 	Properties p=initproperties();
